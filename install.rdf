@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+<Description about="urn:mozilla:install-manifest">
+
+  <em:id>messagemodifier@mic.instantbird.org</em:id>
+  <em:version>0.1</em:version>
+  <em:name>Message Modifier</em:name>
+  <em:type>2</em:type>
+  <em:bootstrap>true</em:bootstrap>
+
+  <!-- Target application with min and maxversion -->
+  <!-- Instantbird -->
+  <em:targetApplication>
+    <Description>
+      <em:id>{33cb9019-c295-46dd-be21-8c4936574bee}</em:id>
+      <em:minVersion>0.3a1pre</em:minVersion>
+      <em:maxVersion>1.4a1pre</em:maxVersion>
+    </Description>
+  </em:targetApplication>
+
+  <!-- Front end meta data -->
+  <em:creator>spiffytech</em:creator>
+</Description>
+
+</RDF>
