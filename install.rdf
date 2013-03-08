@@ -7,7 +7,7 @@
 
   <em:id>messagemodifier@mic.instantbird.org</em:id>
   <em:version>0.1</em:version>
-  <em:name>Message Modifier</em:name>
+  <em:name>HipChat Friendliness</em:name>
   <em:type>2</em:type>
   <em:bootstrap>true</em:bootstrap>
 
