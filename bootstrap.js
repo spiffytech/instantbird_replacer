@@ -8,7 +8,10 @@ var originalAddConversationFunction;
 
 function replaceNicks(aString) {
     var replacements = {
-        "First Last": "@FirstLast"
+        "Meredith Sykes": "@MeredithSykes",
+        "Daniel Swanson": "@DanielSwanson",
+        "Blake Prennat": "@BlakePrennat"
+        "Taylor Dondich": "@TaylorDondich"
     };
 
     for(var replacement in replacements) {
